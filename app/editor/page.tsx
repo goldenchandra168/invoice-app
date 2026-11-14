@@ -395,7 +395,7 @@ Salam hangat,
 
       {/* Footer */}
       <footer className="bg-white border-t border-gray-200 py-4 px-6 text-center text-xs text-gray-500 mt-8">
-        <p>© 2026 Generator Invoice App. Dibuat untuk kemudahan bisnis Anda.</p>
+        <p>© 2026 Generator Invoice App. Dibuat untuk kemudahan bisnis Anda. | Created by Golden Chandra</p>
       </footer>
     </div>
   );

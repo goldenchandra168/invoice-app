@@ -38,27 +38,10 @@ export default function LandingPage() {
           ))}
         </section>
 
-        <section>
-          <h2 className="text-3xl font-bold text-center mb-12">Pilihan Paket</h2>
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="p-8 border border-gray-200 rounded-3xl text-center">
-              <h3 className="text-xl font-bold mb-2">Paket Gratis</h3>
-              <p className="text-4xl font-black mb-6">Rp0</p>
-              <p className="text-gray-600 mb-8">Untuk kebutuhan dasar</p>
-              <Link href="/editor" className="block w-full py-3 border border-gray-300 rounded-xl font-semibold hover:bg-gray-50 transition">
-                Mulai Gratis
-              </Link>
-            </div>
-            <div className="p-8 border-2 border-blue-600 rounded-3xl text-center bg-blue-50">
-              <h3 className="text-xl font-bold mb-2">Paket Pro</h3>
-              <p className="text-4xl font-black mb-6">Rp49.000<span className="text-sm font-normal text-gray-500">/bulan</span></p>
-              <p className="text-gray-600 mb-8">Fitur lengkap & kustomisasi</p>
-              <button className="block w-full py-3 bg-blue-600 text-white rounded-xl font-semibold hover:bg-blue-700 transition">
-                Pilih Paket Pro
-              </button>
-            </div>
-          </div>
-        </section>
+        <footer className="border-t py-12 mt-16 text-center text-gray-600">
+          <p>© {new Date().getFullYear()} Invoicely.id. Created by Golden Chandra</p>
+        </footer>
+
       </main>
     </div>
   );

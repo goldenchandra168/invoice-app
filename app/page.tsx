@@ -39,7 +39,7 @@ export default function LandingPage() {
         </section>
 
         <footer className="border-t py-12 mt-16 text-center text-gray-600">
-          <p>© {new Date().getFullYear()} Invoicely.id. Created by Golden Chandra</p>
+          <p>© 2026 Invoicely.id. Created by Golden Chandra</p>
         </footer>
 
       </main>
